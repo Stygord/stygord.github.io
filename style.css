@@ -34,3 +34,8 @@ aside {
 	color: green;
 	background-color: red;
 }
+banner {
+	background-color: gold;
+	padding: 15px;
+	text-align: center;
+}
