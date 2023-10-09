@@ -1,4 +1,4 @@
-div {background-color: black;
+.div {background-color: black;
 	color: white;}
 	
 	.image-container {
@@ -25,7 +25,7 @@ div {background-color: black;
 		color: black;
 		text-decoration: none;
 	}
-aside {
+.aside {
 	width: 50%;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -35,8 +35,14 @@ aside {
 	color: green;
 	background-color: red;
 }
-banner {
+.banner {
 	background-color: gold;
 	padding: 15px;
+	text-align: center;
+}
+.welcome {
+	background-color: grey;
+	color: gold;
+	padding: 20px;
 	text-align: center;
 }
