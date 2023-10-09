@@ -24,3 +24,13 @@ div {background-color: black;
 		color: black;
 		text-decoration: none;
 	}
+aside {
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: center;
+	color: green;
+	background-color: red;
+}
