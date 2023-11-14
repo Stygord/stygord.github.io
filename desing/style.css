@@ -176,7 +176,7 @@ article {
 	border-radius: 4px;
 	overflow: hidden;
 	padding: 3px 17px 32px;
-	margin: 10px;/*Jos main on flexbox, 
+	margin: 50px;/*Jos main on flexbox, 
 	tämä tekee sen, että "artikkelit" mahtuvat vierekkäin.*/
 	
 	/*Yksittäisen artikkelin tausta:
