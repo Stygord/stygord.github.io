@@ -1,0 +1,187 @@
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-image: url('kuva2.jpg');
+}
+
+.custom-jumbotron {
+    margin: 10px;
+    border-style: outset;
+    border-color: white;
+    font-family: 'Roboto', sans-serif;
+    background: #ff00ff;
+    animation: colorChange 0.5s infinite alternate;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+@keyframes colorChange {
+    0%, 100% {
+        background: #ff00ff;
+    }
+    10% {
+        background: #00ffff;
+    }
+    20% {
+        background: #ff0000;
+    }
+    30% {
+        background: #00ff00;
+    }
+    40% {
+        background: #0000ff;
+    }
+    50% {
+        background: #ffff00;
+    }
+    60% {
+        background: #ff8000;
+    }
+    70% {
+        background: #8000ff;
+    }
+    80% {
+        background: #0080ff;
+    }
+    90% {
+        background: #ff0080;
+    }
+}
+
+.moving-text {
+    display: inline-block;
+    animation: textMove 2s infinite alternate;
+}
+
+@keyframes textMove {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(400px);
+    }
+	75% {
+        transform: translateX(-400px); 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    @keyframes textMove {
+        0%, 100% {
+            transform: translateX(0);
+        }
+        
+        25%, 75% {
+            transform: translateX(0);
+        }
+    }
+	
+	.karuselli {
+    max-width: 100%;
+  }
+}
+	
+footer {
+	background: #00916E;
+}
+
+.artikkelit-background {
+	background: #2364AA;
+	color: white;	
+	font-family: 'Roboto Mono', monospace;
+}
+
+.miekkavalas {
+	width: 253px;
+	height: 450;
+	background-color: #FEC601;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-style: outset;
+	border-color: white;
+	margin: 10px;
+}
+
+.maisema {
+	width: 400px;
+	height: 300px;
+	background-color: #FEC601;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-style: outset;
+	border-color: white;
+	margin: 10px;
+}
+
+.linnut {
+	background-color: #FEC601;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-style: outset;
+	border-color: white;
+	margin: 10px;
+}
+
+.artikkelit2-background {
+	background: #FEC601;
+	color: black;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.artikkelit3-background {
+	background: #73BFB8;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.aloitus-background {
+	background: #73BFB8;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.custom-bg-color {
+	background-color: #EA7317;
+	border-style: outset;
+	border-color: white;
+	margin: 10px;
+}
+
+.vuori {
+	background-color: #FEC601;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-style: outset;
+	border-color: white;
+	margin: 10px;
+}
+
+.btn-narrow {
+	width: 150px;
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#myCarousel {
+  background-color: black;
+  margin: auto;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black;
+}
+
+.karuselli {
+max-width: 600px;
+margin: auto;
+max-height: 600px;
+background-color; black;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+ul {
+	list-style-type: none;
+}
