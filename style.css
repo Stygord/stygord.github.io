@@ -60,6 +60,9 @@ welcome {
             animation: gradientAnimation 3s ease infinite;
             border-radius: 5px;
             transition: 0.3s;
+			position: absolute;
+			top: 50%;
+			left: 50%;
         }
 
         .disco-link:hover {
