@@ -86,7 +86,13 @@ li {
 	aside li {
 		list-style-type: none;
 	}
-}
+	
+	.banner img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+	}
 
 .banner {
 	background-color: #4EA5D9;
