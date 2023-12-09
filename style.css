@@ -50,8 +50,7 @@ welcome {
 	text-align: center;
 }
 
-.disco-button {
-            display: inline-block;
+.disco-link {
             padding: 10px 20px;
             font-size: 18px;
             color: #fff;
@@ -63,7 +62,7 @@ welcome {
             transition: 0.3s;
         }
 
-        .disco-button:hover {
+        .disco-link:hover {
             transform: scale(1.1);
         }
 
