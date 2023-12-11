@@ -12,6 +12,10 @@ background-image: url('kuva2.jpg');
 h1 {
 	text-align: center;
 	background: #4EA5D9;
+	margin: 10px;
+	border-style: outset;
+	border-color: white;
+	padding: 10px;
 }
 	
 
