@@ -9,6 +9,12 @@ justify-content: center;
 background-image: url('kuva2.jpg');
 }
 
+h1 {
+	text-align: center;
+	background: #4EA5D9;
+}
+	
+
 main {
 width: 70%;
 background: #00916E;
